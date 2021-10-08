@@ -1,0 +1,10 @@
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\575FBF081FA95C8E4BB7E06189E4A590\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild -BC:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

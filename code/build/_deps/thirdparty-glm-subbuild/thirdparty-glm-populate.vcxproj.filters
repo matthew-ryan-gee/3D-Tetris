@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glm-subbuild\CMakeFiles\b3c3b5bf6c73a55f01dac2c40ca3eedd\thirdparty-glm-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glm-subbuild\CMakeFiles\b3c3b5bf6c73a55f01dac2c40ca3eedd\thirdparty-glm-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glm-subbuild\CMakeFiles\b3c3b5bf6c73a55f01dac2c40ca3eedd\thirdparty-glm-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glm-subbuild\CMakeFiles\b3c3b5bf6c73a55f01dac2c40ca3eedd\thirdparty-glm-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glm-subbuild\CMakeFiles\b3c3b5bf6c73a55f01dac2c40ca3eedd\thirdparty-glm-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glm-subbuild\CMakeFiles\b3c3b5bf6c73a55f01dac2c40ca3eedd\thirdparty-glm-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glm-subbuild\CMakeFiles\b3c3b5bf6c73a55f01dac2c40ca3eedd\thirdparty-glm-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glm-subbuild\CMakeFiles\102eb8ccfb677a5d992f02f29a14bdaa\thirdparty-glm-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glm-subbuild\CMakeFiles\af0a72e61bf70d5870bdc251e4a8a85b\thirdparty-glm-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glm-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glm-subbuild\CMakeFiles\thirdparty-glm-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DC7B9A5E-FBAF-376F-8BE5-8E1577341246}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

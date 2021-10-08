@@ -1,0 +1,13 @@
+# Target labels
+ thirdparty-glfw-populate
+# Source files and their labels
+C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/thirdparty-glfw-populate
+C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/575fbf081fa95c8e4bb7e06189e4a590/thirdparty-glfw-populate.rule
+C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/d547bc9d274b838a367ed8979cfb17c5/thirdparty-glfw-populate-complete.rule
+C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/cb097e1420661155fb5dbcf97876bfb5/thirdparty-glfw-populate-build.rule
+C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/cb097e1420661155fb5dbcf97876bfb5/thirdparty-glfw-populate-configure.rule
+C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/cb097e1420661155fb5dbcf97876bfb5/thirdparty-glfw-populate-download.rule
+C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/cb097e1420661155fb5dbcf97876bfb5/thirdparty-glfw-populate-install.rule
+C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/cb097e1420661155fb5dbcf97876bfb5/thirdparty-glfw-populate-mkdir.rule
+C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/cb097e1420661155fb5dbcf97876bfb5/thirdparty-glfw-populate-patch.rule
+C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/cb097e1420661155fb5dbcf97876bfb5/thirdparty-glfw-populate-test.rule

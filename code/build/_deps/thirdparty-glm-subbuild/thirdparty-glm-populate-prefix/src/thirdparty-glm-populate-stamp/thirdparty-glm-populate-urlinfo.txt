@@ -1,0 +1,3 @@
+repository='external project URL'
+module='C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/thirdparty/glm-0.9.9.8.zip'
+tag=''

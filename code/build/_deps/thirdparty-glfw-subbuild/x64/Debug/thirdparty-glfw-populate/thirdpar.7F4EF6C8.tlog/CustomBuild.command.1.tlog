@@ -1,0 +1,150 @@
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\CB097E1420661155FB5DBCF97876BFB5\THIRDPARTY-GLFW-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\CB097E1420661155FB5DBCF97876BFB5\THIRDPARTY-GLFW-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/verify-thirdparty-glfw-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/extract-thirdparty-glfw-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\CB097E1420661155FB5DBCF97876BFB5\THIRDPARTY-GLFW-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\CB097E1420661155FB5DBCF97876BFB5\THIRDPARTY-GLFW-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\CB097E1420661155FB5DBCF97876BFB5\THIRDPARTY-GLFW-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\CB097E1420661155FB5DBCF97876BFB5\THIRDPARTY-GLFW-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\CB097E1420661155FB5DBCF97876BFB5\THIRDPARTY-GLFW-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\D547BC9D274B838A367ED8979CFB17C5\THIRDPARTY-GLFW-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/Debug/thirdparty-glfw-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\575FBF081FA95C8E4BB7E06189E4A590\THIRDPARTY-GLFW-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild -BC:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild --check-stamp-file C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

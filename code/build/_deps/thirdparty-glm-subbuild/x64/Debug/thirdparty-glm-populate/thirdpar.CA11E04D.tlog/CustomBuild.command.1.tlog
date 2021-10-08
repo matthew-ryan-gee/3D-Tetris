@@ -1,0 +1,150 @@
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\B3C3B5BF6C73A55F01DAC2C40CA3EEDD\THIRDPARTY-GLM-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug/thirdparty-glm-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\B3C3B5BF6C73A55F01DAC2C40CA3EEDD\THIRDPARTY-GLM-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/verify-thirdparty-glm-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/extract-thirdparty-glm-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug/thirdparty-glm-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\B3C3B5BF6C73A55F01DAC2C40CA3EEDD\THIRDPARTY-GLM-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug/thirdparty-glm-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\B3C3B5BF6C73A55F01DAC2C40CA3EEDD\THIRDPARTY-GLM-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glm-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug/thirdparty-glm-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\B3C3B5BF6C73A55F01DAC2C40CA3EEDD\THIRDPARTY-GLM-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glm-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug/thirdparty-glm-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\B3C3B5BF6C73A55F01DAC2C40CA3EEDD\THIRDPARTY-GLM-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glm-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug/thirdparty-glm-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\B3C3B5BF6C73A55F01DAC2C40CA3EEDD\THIRDPARTY-GLM-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glm-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug/thirdparty-glm-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\102EB8CCFB677A5D992F02F29A14BDAA\THIRDPARTY-GLM-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/CMakeFiles/Debug/thirdparty-glm-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/thirdparty-glm-populate-prefix/src/thirdparty-glm-populate-stamp/Debug/thirdparty-glm-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKEFILES\AF0A72E61BF70D5870BDC251E4A8A85B\THIRDPARTY-GLM-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTH\DOCUMENTS\SCHOOL\CLASSES\CURRENT\C371\LABS\LAB03\CODE\BUILD\_DEPS\THIRDPARTY-GLM-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild -BC:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild --check-stamp-file C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

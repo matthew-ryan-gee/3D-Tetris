@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/CMakeFiles/thirdparty-glm-populate"
+		},
+		{
+			"file" : "C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/CMakeFiles/af0a72e61bf70d5870bdc251e4a8a85b/thirdparty-glm-populate.rule"
+		},
+		{
+			"file" : "C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/CMakeFiles/102eb8ccfb677a5d992f02f29a14bdaa/thirdparty-glm-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/CMakeFiles/b3c3b5bf6c73a55f01dac2c40ca3eedd/thirdparty-glm-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/CMakeFiles/b3c3b5bf6c73a55f01dac2c40ca3eedd/thirdparty-glm-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/CMakeFiles/b3c3b5bf6c73a55f01dac2c40ca3eedd/thirdparty-glm-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/CMakeFiles/b3c3b5bf6c73a55f01dac2c40ca3eedd/thirdparty-glm-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/CMakeFiles/b3c3b5bf6c73a55f01dac2c40ca3eedd/thirdparty-glm-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/CMakeFiles/b3c3b5bf6c73a55f01dac2c40ca3eedd/thirdparty-glm-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/build/_deps/thirdparty-glm-subbuild/CMakeFiles/b3c3b5bf6c73a55f01dac2c40ca3eedd/thirdparty-glm-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"thirdparty-glm-populate"
+		],
+		"name" : "thirdparty-glm-populate"
+	}
+}

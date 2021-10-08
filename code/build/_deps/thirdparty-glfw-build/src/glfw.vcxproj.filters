@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\monitor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\vulkan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\win32_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\win32_joystick.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\win32_monitor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\win32_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\win32_thread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\win32_window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\wgl_context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\egl_context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\osmesa_context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\mappings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-build\src\glfw_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\include\GLFW\glfw3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\include\GLFW\glfw3native.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\win32_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\win32_joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\wgl_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\egl_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\osmesa_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C013A4DB-AF25-30D9-BE65-1EC57B919EDA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{145F4295-0823-39E3-A9E1-AFDA860BB6D9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

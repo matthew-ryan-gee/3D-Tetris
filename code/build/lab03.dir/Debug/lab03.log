@@ -1,0 +1,40 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (lab03.dir\Debug\) contains files shared from another project (lab03.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Building Custom Rule C:/Users/matth/Documents/school/Classes/current/c371/labs/Lab03/code/CMakeLists.txt
+  main.cpp
+..\src\main.cpp(2186,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\src\main.cpp(2203,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\src\main.cpp(2296,56): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+..\src\main.cpp(2297,54): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+..\src\main.cpp(2381,23): warning C4305: '-=': truncation from 'double' to 'float'
+..\src\main.cpp(2384,23): warning C4305: '-=': truncation from 'double' to 'float'
+..\src\main.cpp(2387,23): warning C4305: '-=': truncation from 'double' to 'float'
+..\src\main.cpp(2390,23): warning C4305: '-=': truncation from 'double' to 'float'
+..\src\main.cpp(2393,23): warning C4305: '-=': truncation from 'double' to 'float'
+..\src\main.cpp(2399,23): warning C4305: '+=': truncation from 'double' to 'float'
+..\src\main.cpp(2402,23): warning C4305: '+=': truncation from 'double' to 'float'
+..\src\main.cpp(2405,23): warning C4305: '+=': truncation from 'double' to 'float'
+..\src\main.cpp(2408,23): warning C4305: '+=': truncation from 'double' to 'float'
+..\src\main.cpp(2411,23): warning C4305: '+=': truncation from 'double' to 'float'
+..\src\main.cpp(2417,23): warning C4305: '+=': truncation from 'double' to 'float'
+..\src\main.cpp(2420,23): warning C4305: '+=': truncation from 'double' to 'float'
+..\src\main.cpp(2423,23): warning C4305: '+=': truncation from 'double' to 'float'
+..\src\main.cpp(2426,23): warning C4305: '+=': truncation from 'double' to 'float'
+..\src\main.cpp(2429,23): warning C4305: '+=': truncation from 'double' to 'float'
+..\src\main.cpp(2435,23): warning C4305: '-=': truncation from 'double' to 'float'
+..\src\main.cpp(2438,23): warning C4305: '-=': truncation from 'double' to 'float'
+..\src\main.cpp(2441,23): warning C4305: '-=': truncation from 'double' to 'float'
+..\src\main.cpp(2444,23): warning C4305: '-=': truncation from 'double' to 'float'
+..\src\main.cpp(2447,23): warning C4305: '-=': truncation from 'double' to 'float'
+..\src\main.cpp(2453,23): warning C4305: '+=': truncation from 'double' to 'float'
+..\src\main.cpp(2456,23): warning C4305: '+=': truncation from 'double' to 'float'
+..\src\main.cpp(2459,23): warning C4305: '+=': truncation from 'double' to 'float'
+..\src\main.cpp(2462,23): warning C4305: '+=': truncation from 'double' to 'float'
+..\src\main.cpp(2465,23): warning C4305: '+=': truncation from 'double' to 'float'
+..\src\main.cpp(2471,23): warning C4305: '-=': truncation from 'double' to 'float'
+..\src\main.cpp(2474,23): warning C4305: '-=': truncation from 'double' to 'float'
+..\src\main.cpp(2477,23): warning C4305: '-=': truncation from 'double' to 'float'
+..\src\main.cpp(2480,23): warning C4305: '-=': truncation from 'double' to 'float'
+..\src\main.cpp(2483,23): warning C4305: '-=': truncation from 'double' to 'float'
+..\src\main.cpp(2489,18): warning C4305: '+=': truncation from 'double' to 'float'
+..\src\main.cpp(2493,18): warning C4305: '-=': truncation from 'double' to 'float'
+  lab03.vcxproj -> C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\Debug\lab03.exe

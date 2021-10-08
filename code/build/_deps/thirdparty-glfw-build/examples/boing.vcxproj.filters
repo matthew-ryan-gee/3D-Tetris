@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\examples\boing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\deps\glad_gl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\deps\glad\gl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\matth\Documents\school\Classes\current\c371\labs\Lab03\code\build\_deps\thirdparty-glfw-src\examples\glfw.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C013A4DB-AF25-30D9-BE65-1EC57B919EDA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{145F4295-0823-39E3-A9E1-AFDA860BB6D9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
